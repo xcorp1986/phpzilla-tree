@@ -12,9 +12,18 @@
   "require": {
     "php": ">=7.1.0"
   },
+  "require-dev": {
+    "topthink/framework": "^5.1"
+  },
   "autoload": {
     "psr-4": {
       "phpzilla\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
     }
   }
 }
